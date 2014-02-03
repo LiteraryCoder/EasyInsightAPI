@@ -20,4 +20,5 @@ If Easy Insight is having server problems, you'll receive a 5XX error.
 
 Available APIs
 ----------------
+* [Data Sources](https://github.com/easyinsight/EasyInsightAPI/blob/master/sections/dataSources.md)
 * [Reports](https://github.com/easyinsight/EasyInsightAPI/blob/master/sections/reports.md)
