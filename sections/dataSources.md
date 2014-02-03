@@ -18,12 +18,12 @@ Add rows to data source
 
 ```json
 {
-  "rows": {
+  "rows": [{
     "field1": 500,
     "field2": "Person",
     "field3": "2013/07/01",
     "field4": "2013/07/01 11:00:00"
-  }
+  }]
 }
 ```
 
@@ -34,11 +34,11 @@ Replace rows in data source
 
 ```json
 {
-  "rows": {
+  "rows": [{
     "field1": 500,
     "field2": "Person",
     "field3": "2013/07/01",
     "field4": "2013/07/01 11:00:00"
-  }
+  }]
 }
 ```
