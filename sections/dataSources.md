@@ -22,14 +22,14 @@ Add rows to data source
     "field1": 500,
     "field2": "Person",
     "field3": "2014-01-02'T'12:05:01"
-  }
+  }]
 }
 ```
 
 Replace rows in data source
 ------------
 
-* `POST /dataSources/1/rows.json?action='replace'` will replace the data of the specified data source with the passed in rows.
+* `POST /dataSources/1/rows.json?action=replace` will replace the data of the specified data source with the passed in rows.
 
 ```json
 {
@@ -37,6 +37,6 @@ Replace rows in data source
     "field1": 500,
     "field2": "Person",
     "field3": "2014-01-02'T'12:05:01"
-  }
+  }]
 }
 ```
