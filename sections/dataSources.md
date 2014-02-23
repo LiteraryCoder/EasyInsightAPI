@@ -18,7 +18,7 @@ Add rows to data source
 
 ```json
 {
-  "rows": {
+  "rows": [{
     "field1": 500,
     "field2": "Person",
     "field3": "2014-01-02'T'12:05:01"
@@ -33,7 +33,7 @@ Replace rows in data source
 
 ```json
 {
-  "rows": {
+  "rows": [{
     "field1": 500,
     "field2": "Person",
     "field3": "2014-01-02'T'12:05:01"
