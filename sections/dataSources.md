@@ -21,8 +21,7 @@ Add rows to data source
   "rows": {
     "field1": 500,
     "field2": "Person",
-    "field3": "2013/07/01",
-    "field4": "2013/07/01 11:00:00"
+    "field3": "2014-01-02'T'12:05:01"
   }
 }
 ```
@@ -30,15 +29,14 @@ Add rows to data source
 Replace rows in data source
 ------------
 
-* `PUT /dataSources/1/rows.json` will replace the data of the specified data source with the passed in rows.
+* `POST /dataSources/1/rows.json?action='replace'` will replace the data of the specified data source with the passed in rows.
 
 ```json
 {
   "rows": {
     "field1": 500,
     "field2": "Person",
-    "field3": "2013/07/01",
-    "field4": "2013/07/01 11:00:00"
+    "field3": "2014-01-02'T'12:05:01"
   }
 }
 ```
